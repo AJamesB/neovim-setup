@@ -15,10 +15,3 @@ local opts = {}
 
 require("vim-options")
 require("lazy").setup("plugins")
-
---vim.api.nvim_create_autocmd("VimEnter", {
---  command = "set nornu nonu | Neotree reveal",
---})
---vim.api.nvim_create_autocmd("BufEnter", {
---  command = "set rnu nu",
---})
